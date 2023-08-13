@@ -20,8 +20,7 @@ const firebaseConfig = {
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
-
-console.log({ signInWithRedirect, firebaseApp });
+console.log({ firebaseApp });
 
 const provider = new GoogleAuthProvider();
 
